@@ -820,7 +820,7 @@ void battle(int campo_giocatore_1[][N], int campo_missili_1[][N], int campo_gioc
                 PLAYER1();
                 printGame(campo_giocatore_1, campo_missili_1);
                 printf("\n");
-                printGame(campo_giocatore_2, campo_missili_2);
+                // printGame(campo_giocatore_2, campo_missili_2);
                 do{
                     err = 0;
                     printf("\nInserisci le coordinate\n");
@@ -857,7 +857,7 @@ void battle(int campo_giocatore_1[][N], int campo_missili_1[][N], int campo_gioc
                 PLAYER2();
                 printGame(campo_giocatore_2, campo_missili_2);
                 printf("\n");
-                printGame(campo_giocatore_1, campo_missili_1);
+                // printGame(campo_giocatore_1, campo_missili_1);
                 do{
                     err = 0;
                     printf("\nInserisci le coordinate\n");
